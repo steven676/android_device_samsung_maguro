@@ -26,3 +26,6 @@ PRODUCT_COPY_FILES := \
 
 $(call inherit-product, device/samsung/tuna/device.mk)
 $(call inherit-product-if-exists, vendor/samsung/maguro/device-vendor.mk)
+
+PRODUCT_PACKAGES += \
+	rild-sandbox
